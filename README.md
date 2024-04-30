@@ -24,6 +24,8 @@ This plugin is inspired by Medusa's Official [Webshipper Plugin](https://github.
 - [Medusa backend](https://docs.medusajs.com/development/backend/install)
 - [Medusa admin](https://docs.medusajs.com/admin/quickstart)
 - [Shiprocket Account](https://www.shiprocket.in/)
+- You need to make sure that each of your products has an HS Code, SKU, Length, Width, Height & Weight for the Ship Rocket Plugin to work
+- Also make sure in the Medusa Storefront that the user enters 10 digit phone number, postal code, city & pincode or else you won't be able to create ship rocket fulfilment
 - You need to create one API User as mentioned in [Shiprocket docs](https://apidocs.shiprocket.in)
 - NOTE: Shiprocket does not provide a development environment for testing. Any orders/shipments you create will affect your wallet and will be visible in your Shiprocket dashboard. Remember to cancel all test orders/shipments after your create them. You can do so via SR's Dashboard or [Postman](https://www.postman.com/hans88/workspace/shiprocket/documentation/624374-cafac1c7-ae25-4c93-820d-398cf0cfee6a)
  or Medusa Admin
